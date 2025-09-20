@@ -20,3 +20,4 @@
  }
 
  esCapicua(21112);
+ esCapicua(12345);
