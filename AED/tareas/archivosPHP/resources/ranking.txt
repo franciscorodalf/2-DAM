@@ -1,0 +1,5 @@
+Juego A,150
+Juego B,300
+Juego C,250
+Juego D,400
+Juego E,100
