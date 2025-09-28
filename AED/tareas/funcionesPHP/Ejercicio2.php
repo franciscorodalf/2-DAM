@@ -30,7 +30,7 @@ function contarPalabras(string $texto): array {
 
 function escribirCSV(string $ruta, array $frecuencias): void {
     if (($fichero = fopen($ruta, "w")) !== false) {
-        fputcsv($fichero, ["palabra", "frecuencia"]); // cabecera
+        fputcsv($fichero, ["palabra", "frecuencia"]); 
         foreach ($frecuencias as $palabra => $cantidad) {
             fputcsv($fichero, [$palabra, $cantidad]);
         }
