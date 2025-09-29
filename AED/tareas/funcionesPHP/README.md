@@ -1,4 +1,4 @@
-````markdown
+
 # 📘 Ejercicios en PHP con CSV y Texto
 
 ## 🔹 Ejercicio 1: Operaciones con números naturales en CSV
