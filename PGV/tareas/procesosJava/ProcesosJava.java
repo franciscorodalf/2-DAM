@@ -11,7 +11,7 @@ public class ProcesosJava {
         p1.waitFor();
 
         ProcessBuilder pb2 = new ProcessBuilder("sh", "-c", "grep java procesos.txt");
-    pb2.redirectOutput(new File("PGV/tareas/procesosJava/resources/mis_procesos.txt"));
+        pb2.redirectOutput(new File("PGV/tareas/procesosJava/resources/mis_procesos.txt"));
         Process p2 = pb2.start();
         p2.waitFor();
 
