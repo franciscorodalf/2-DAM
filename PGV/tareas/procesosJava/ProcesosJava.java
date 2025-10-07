@@ -2,7 +2,22 @@ package PGV.tareas.procesosJava;
 
 import java.io.*;
 
+/**
+ * Diseña un programa en Java que:
+ * 
+ * Liste los procesos (ps aux).
+ * Filtre solo los que contengan java.
+ * Guarde el resultado en mis_procesos.txt.
+ * Muestre en pantalla cuántas líneas tiene el archivo (wc -l).
+ * Si hay más de 3 procesos java, imprime:
+ * "¡Cuidado, muchos procesos de Java activos!".
+ */
 public class ProcesosJava {
+
+    /**
+     * Clase que lanza y coordina varios procesos del sistema para analizar los
+     * procesos Java activos.
+     */
     public static void main(String[] args) throws Exception {
 
         ProcessBuilder pb1 = new ProcessBuilder("ps", "aux");
